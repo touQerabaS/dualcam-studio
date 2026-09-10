@@ -1,0 +1,43 @@
+# Local environments and downloaded dependencies
+.venv/
+venv/
+downloads/
+wheelhouse/
+*.whl
+*.dll
+*.pyd
+*.exe
+
+# Generated packaging output
+build*/
+dist*/
+*.spec
+*-output.txt
+
+# Python / test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Machine settings, camera data, temporary diagnostics and backups
+qa/
+captures/
+recordings/
+*.log
+*.mp4
+*.mov
+*.bin
+*.zip
+settings.json
+gopro-connection.json
+.env
+.env.*
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
